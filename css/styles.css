@@ -220,6 +220,10 @@ p {
   background-color: #f4f4fd;
   border-radius: 4px;
   margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
 }
 
 .features-content {
