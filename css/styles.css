@@ -289,7 +289,7 @@ p {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.team-card:hover .social-link-icons .team-card:focus .social-link-icons {
+.team-card:hover .social-link-icons {
   background-color: #404bbf;
 }
 
@@ -335,6 +335,15 @@ p {
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-link-icons:hover,
+.social-link-icons:focus {
+  background-color: #404bbf;
+}
+
+.icon {
+  fill: #f4f4fd;
 }
 
 /* --------------------OUR PORTFOLIO--------------- */
