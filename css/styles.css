@@ -429,7 +429,7 @@ p {
 }
 
 /* ------------------------FOOTER-------------------- */
-.footer-text {
+footer-text {
   color: #f4f4fd;
   line-height: 1.5;
   letter-spacing: 0.02px;
@@ -441,10 +441,9 @@ p {
   padding: 100px 0;
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: baseline;
   flex-wrap: wrap;
   gap: 40px;
-  align-items: baseline;
 }
 
 .footer-logo {
@@ -523,8 +522,7 @@ p {
   align-items: flex-start;
   gap: 120px;
 }
-
-.footer-text-block {
+. .footer-text-block {
   max-width: 264px;
   margin-right: 120px;
 }
