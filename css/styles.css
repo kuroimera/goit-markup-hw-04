@@ -444,6 +444,7 @@ p {
   align-items: flex-start;
   flex-wrap: wrap;
   gap: 40px;
+  align-items: baseline;
 }
 
 .footer-logo {
@@ -479,6 +480,7 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   margin: 0;
+  margin-bottom: 16px;
 }
 
 .socials-footer-container {
@@ -510,7 +512,8 @@ p {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-link-icons-footer:hover {
+.social-link-icons-footer:hover,
+.social-link-icons-footer:focus {
   background-color: #31d0aa;
 }
 
@@ -523,4 +526,9 @@ p {
 
 .footer-text-block {
   max-width: 264px;
+  margin-right: 120px;
+}
+
+.footer-icons {
+  fill: #f4f4fd;
 }
