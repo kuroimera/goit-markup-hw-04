@@ -441,7 +441,6 @@ footer-text {
   padding: 100px 0;
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
   flex-wrap: wrap;
   gap: 40px;
 }
@@ -521,8 +520,9 @@ footer-text {
   justify-content: flex-start;
   align-items: flex-start;
   gap: 120px;
+  align-items: baseline;
 }
-. .footer-text-block {
+.footer-text-block {
   max-width: 264px;
   margin-right: 120px;
 }
